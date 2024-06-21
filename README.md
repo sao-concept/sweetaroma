@@ -52,9 +52,16 @@ To set up the project locally, follow these steps:
    ```
 
 4. **Run the development server**:
+
    ```bash
    npm start
    ```
+
+5. **Runs the app in the development mode.**
+   Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.
+You may also see any lint errors in the console.
 
 ## Usage
 

@@ -1,0 +1,27 @@
+// MEDIA QUERY MANAGER
+
+/*
+$breakpoint argument choices:
+- phone
+- tab
+- desktop
+*/
+@mixin respond($breakpoint) {
+  @if $breakpoint == small {
+    @media screen and (max-width: 480px) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == medium {
+    @media screen and (min-width: 481px) and (max-width: 768px) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == large {
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+      @content;
+    }
+  }
+}
