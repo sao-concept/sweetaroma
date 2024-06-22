@@ -1,64 +1,64 @@
-import basket_icon from "../images/basket_icon.png";
-import logo from "../images/logo.png";
-import header_img from "../images/header_img.png";
-import search_icon from "../images/search_icon.png";
-import menu_1 from "../images/menu_1.png";
-import menu_2 from "../images/menu_2.png";
-import menu_3 from "../images/menu_3.png";
-import menu_4 from "../images/menu_4.png";
-import menu_5 from "../images/menu_5.png";
-import menu_6 from "../images/menu_6.png";
-import menu_7 from "../images/menu_7.png";
-import menu_8 from "../images/menu_8.png";
+import basket_icon from '../images/basket_icon.png';
+import logo from '../images/logo.png';
+import header_img from '../images/header_img.png';
+import search_icon from '../images/search_icon.png';
+import menu_1 from '../images/menu_1.png';
+import menu_2 from '../images/menu_2.png';
+import menu_3 from '../images/menu_3.png';
+import menu_4 from '../images/menu_4.png';
+import menu_5 from '../images/menu_5.png';
+import menu_6 from '../images/menu_6.png';
+import menu_7 from '../images/menu_7.png';
+import menu_8 from '../images/menu_8.png';
 
-import food_1 from "../images/food_1.png";
-import food_2 from "../images/food_2.png";
-import food_3 from "../images/food_3.png";
-import food_4 from "../images/food_4.png";
-import food_5 from "../images/food_5.png";
-import food_6 from "../images/food_6.png";
-import food_7 from "../images/food_7.png";
-import food_8 from "../images/food_8.png";
-import food_9 from "../images/food_9.png";
-import food_10 from "../images/food_10.png";
-import food_11 from "../images/food_11.png";
-import food_12 from "../images/food_12.png";
-import food_13 from "../images/food_13.png";
-import food_14 from "../images/food_14.png";
-import food_15 from "../images/food_15.png";
-import food_16 from "../images/food_16.png";
-import food_17 from "../images/food_17.png";
-import food_18 from "../images/food_18.png";
-import food_19 from "../images/food_19.png";
-import food_20 from "../images/food_20.png";
-import food_21 from "../images/food_21.png";
-import food_22 from "../images/food_22.png";
-import food_23 from "../images/food_23.png";
-import food_24 from "../images/food_24.png";
-import food_25 from "../images/food_25.png";
-import food_26 from "../images/food_26.png";
-import food_27 from "../images/food_27.png";
-import food_28 from "../images/food_28.png";
-import food_29 from "../images/food_29.png";
-import food_30 from "../images/food_30.png";
-import food_31 from "../images/food_31.png";
-import food_32 from "../images/food_32.png";
+import food_1 from '../images/food_1.png';
+import food_2 from '../images/food_2.png';
+import food_3 from '../images/food_3.png';
+import food_4 from '../images/food_4.png';
+import food_5 from '../images/food_5.png';
+import food_6 from '../images/food_6.png';
+import food_7 from '../images/food_7.png';
+import food_8 from '../images/food_8.png';
+import food_9 from '../images/food_9.png';
+import food_10 from '../images/food_10.png';
+import food_11 from '../images/food_11.png';
+import food_12 from '../images/food_12.png';
+import food_13 from '../images/food_13.png';
+import food_14 from '../images/food_14.png';
+import food_15 from '../images/food_15.png';
+import food_16 from '../images/food_16.png';
+import food_17 from '../images/food_17.png';
+import food_18 from '../images/food_18.png';
+import food_19 from '../images/food_19.png';
+import food_20 from '../images/food_20.png';
+import food_21 from '../images/food_21.png';
+import food_22 from '../images/food_22.png';
+import food_23 from '../images/food_23.png';
+import food_24 from '../images/food_24.png';
+import food_25 from '../images/food_25.png';
+import food_26 from '../images/food_26.png';
+import food_27 from '../images/food_27.png';
+import food_28 from '../images/food_28.png';
+import food_29 from '../images/food_29.png';
+import food_30 from '../images/food_30.png';
+import food_31 from '../images/food_31.png';
+import food_32 from '../images/food_32.png';
 
-import add_icon_white from "../images/add_icon_white.png";
-import add_icon_green from "../images/add_icon_green.png";
-import remove_icon_red from "../images/remove_icon_red.png";
-import app_store from "../images/app_store.png";
-import play_store from "../images/play_store.png";
-import linkedin_icon from "../images/linkedin_icon.png";
-import facebook_icon from "../images/facebook_icon.png";
-import twitter_icon from "../images/twitter_icon.png";
-import cross_icon from "../images/cross_icon.png";
-import selector_icon from "../images/selector_icon.png";
-import rating_starts from "../images/rating_starts.png";
-import profile_icon from "../images/profile_icon.png";
-import bag_icon from "../images/bag_icon.png";
-import logout_icon from "../images/logout_icon.png";
-import parcel_icon from "../images/parcel_icon.png";
+import add_icon_white from '../images/add_icon_white.png';
+import add_icon_green from '../images/add_icon_green.png';
+import remove_icon_red from '../images/remove_icon_red.png';
+import app_store from '../images/app_store.png';
+import play_store from '../images/play_store.png';
+import linkedin_icon from '../images/linkedin_icon.png';
+import facebook_icon from '../images/facebook_icon.png';
+import twitter_icon from '../images/twitter_icon.png';
+import cross_icon from '../images/cross_icon.png';
+import selector_icon from '../images/selector_icon.png';
+import rating_starts from '../images/rating_starts.png';
+import profile_icon from '../images/profile_icon.png';
+import bag_icon from '../images/bag_icon.png';
+import logout_icon from '../images/logout_icon.png';
+import parcel_icon from '../images/parcel_icon.png';
 
 export const assets = {
   logo,
@@ -84,326 +84,318 @@ export const assets = {
 
 export const menu_list = [
   {
-    menu_name: "Salad",
+    menu_name: 'Salad',
     menu_image: menu_1,
   },
   {
-    menu_name: "Rolls",
+    menu_name: 'Rolls',
     menu_image: menu_2,
   },
   {
-    menu_name: "Deserts",
+    menu_name: 'Deserts',
     menu_image: menu_3,
   },
   {
-    menu_name: "Sandwich",
+    menu_name: 'Sandwich',
     menu_image: menu_4,
   },
   {
-    menu_name: "Cake",
+    menu_name: 'Cake',
     menu_image: menu_5,
   },
   {
-    menu_name: "Pure Veg",
+    menu_name: 'Pure Veg',
     menu_image: menu_6,
   },
   {
-    menu_name: "Pasta",
+    menu_name: 'Pasta',
     menu_image: menu_7,
   },
   {
-    menu_name: "Noodles",
+    menu_name: 'Noodles',
     menu_image: menu_8,
   },
 ];
 
 export const food_list = [
   {
-    _id: "1",
-    name: "Greek salad",
+    _id: '1',
+    name: 'Greek salad',
     image: food_1,
-    price: 12,
+    price: 22,
     description:
-      "Food provides essential nutrients for overall health and well-being",
-    category: "Salad",
+      'Fresh Greek salad with tomatoes, cucumbers, olives, and feta cheese.',
+    category: 'Salad',
   },
   {
-    _id: "2",
-    name: "Veg salad",
+    _id: '2',
+    name: 'Veg salad',
     image: food_2,
-    price: 18,
-    description:
-      "Food provides essential nutrients for overall health and well-being",
-    category: "Salad",
+    price: 25,
+    description: 'A fresh, vibrant mix of vegetables in a healthy salad.',
+    category: 'Salad',
   },
   {
-    _id: "3",
-    name: "Clover Salad",
+    _id: '3',
+    name: 'Clover Salad',
     image: food_3,
-    price: 16,
+    price: 23,
     description:
-      "Food provides essential nutrients for overall health and well-being",
-    category: "Salad",
+      'Fresh, vibrant salad with clover, mixed greens, and light dressing.',
+    category: 'Salad',
   },
   {
-    _id: "4",
-    name: "Chicken Salad",
+    _id: '4',
+    name: 'Chicken Salad',
     image: food_4,
-    price: 24,
+    price: 30,
     description:
-      "Food provides essential nutrients for overall health and well-being",
-    category: "Salad",
+      'Fresh chicken salad with crisp greens, tangy dressing, and veggies.',
+    category: 'Salad',
   },
   {
-    _id: "5",
-    name: "Lasagna Rolls",
+    _id: '5',
+    name: 'Lasagna Rolls',
     image: food_5,
-    price: 14,
+    price: 19,
     description:
-      "Food provides essential nutrients for overall health and well-being",
-    category: "Rolls",
+      'Rolled lasagna filled with cheese, sauce, and savory ingredients',
+    category: 'Rolls',
   },
   {
-    _id: "6",
-    name: "Peri Peri Rolls",
+    _id: '6',
+    name: 'Peri Peri Rolls',
     image: food_6,
-    price: 12,
-    description:
-      "Food provides essential nutrients for overall health and well-being",
-    category: "Rolls",
+    price: 17,
+    description: 'Spicy Peri Peri chicken wrapped in warm, soft rolls.',
+    category: 'Rolls',
   },
   {
-    _id: "7",
-    name: "Chicken Rolls",
+    _id: '7',
+    name: 'Chicken Rolls',
     image: food_7,
-    price: 20,
+    price: 30,
     description:
-      "Food provides essential nutrients for overall health and well-being",
-    category: "Rolls",
+      'Savory chicken rolls with flavorful fillings, perfect for any occasion.',
+    category: 'Rolls',
   },
   {
-    _id: "8",
-    name: "Veg Rolls",
+    _id: '8',
+    name: 'Veg Rolls',
     image: food_8,
-    price: 15,
+    price: 23,
     description:
-      "Food provides essential nutrients for overall health and well-being",
-    category: "Rolls",
+      'Vegetarian rolls filled with flavorful veggies, wrapped in soft tortillas.',
+    category: 'Rolls',
   },
   {
-    _id: "9",
-    name: "Ripple Ice Cream",
+    _id: '9',
+    name: 'Ripple Ice Cream',
     image: food_9,
-    price: 14,
-    description:
-      "Food provides essential nutrients for overall health and well-being",
-    category: "Deserts",
+    price: 27,
+    description: 'Smooth, creamy ice cream with swirls of delightful flavors.',
+    category: 'Deserts',
   },
   {
-    _id: "10",
-    name: "Fruit Ice Cream",
+    _id: '10',
+    name: 'Fruit Ice Cream',
     image: food_10,
-    price: 22,
-    description:
-      "Food provides essential nutrients for overall health and well-being",
-    category: "Deserts",
+    price: 28,
+    description: 'Creamy blend of fruit and dairy, a refreshing frozen treat.',
+    category: 'Deserts',
   },
   {
-    _id: "11",
-    name: "Jar Ice Cream",
+    _id: '11',
+    name: 'Jar Ice Cream',
     image: food_11,
-    price: 10,
+    price: 12,
     description:
-      "Food provides essential nutrients for overall health and well-being",
-    category: "Deserts",
+      'Creamy indulgence served from a jar: delicious, convenient, and satisfying.',
+    category: 'Deserts',
   },
   {
-    _id: "12",
-    name: "Vanilla Ice Cream",
+    _id: '12',
+    name: 'Vanilla Ice Cream',
     image: food_12,
-    price: 12,
+    price: 17,
     description:
-      "Food provides essential nutrients for overall health and well-being",
-    category: "Deserts",
+      'Smooth, creamy vanilla ice cream: a timeless indulgence for all ages.',
+    category: 'Deserts',
   },
   {
-    _id: "13",
-    name: "Chicken Sandwich",
+    _id: '13',
+    name: 'Chicken Sandwich',
     image: food_13,
-    price: 12,
+    price: 19,
     description:
-      "Food provides essential nutrients for overall health and well-being",
-    category: "Sandwich",
+      'Succulent chicken in a toasted bun with fresh toppings and sauce.',
+    category: 'Sandwich',
   },
   {
-    _id: "14",
-    name: "Vegan Sandwich",
+    _id: '14',
+    name: 'Vegan Sandwich',
     image: food_14,
-    price: 18,
+    price: 29,
     description:
-      "Food provides essential nutrients for overall health and well-being",
-    category: "Sandwich",
+      'Plant-based delight with fresh vegetables and savory spreads on bread.',
+    category: 'Sandwich',
   },
   {
-    _id: "15",
-    name: "Grilled Sandwich",
+    _id: '15',
+    name: 'Grilled Sandwich',
     image: food_15,
-    price: 16,
+    price: 19,
     description:
-      "Food provides essential nutrients for overall health and well-being",
-    category: "Sandwich",
+      'Savory grilled sandwich with melted cheese and crispy golden bread.',
+    category: 'Sandwich',
   },
   {
-    _id: "16",
-    name: "Bread Sandwich",
+    _id: '16',
+    name: 'Bread Sandwich',
     image: food_16,
-    price: 24,
+    price: 28,
     description:
-      "Food provides essential nutrients for overall health and well-being",
-    category: "Sandwich",
+      'Simple yet satisfying: a classic bread sandwich, comfort in simplicity.',
+    category: 'Sandwich',
   },
   {
-    _id: "17",
-    name: "Cup Cake",
+    _id: '17',
+    name: 'Cup Cake',
     image: food_17,
-    price: 14,
-    description:
-      "Food provides essential nutrients for overall health and well-being",
-    category: "Cake",
+    price: 19,
+    description: 'A small, sweet treat, baked to perfection in miniature form.',
+    category: 'Cake',
   },
   {
-    _id: "18",
-    name: "Vegan Cake",
+    _id: '18',
+    name: 'Vegan Cake',
     image: food_18,
-    price: 12,
-    description:
-      "Food provides essential nutrients for overall health and well-being",
-    category: "Cake",
-  },
-  {
-    _id: "19",
-    name: "Butterscotch Cake",
-    image: food_19,
-    price: 20,
-    description:
-      "Food provides essential nutrients for overall health and well-being",
-    category: "Cake",
-  },
-  {
-    _id: "20",
-    name: "Sliced Cake",
-    image: food_20,
     price: 15,
     description:
-      "Food provides essential nutrients for overall health and well-being",
-    category: "Cake",
+      'Plant-based delight: Vegan cake, rich, moist, cruelty-free, guilt-free indulgence',
+    category: 'Cake',
   },
   {
-    _id: "21",
-    name: "Garlic Mushroom ",
-    image: food_21,
-    price: 14,
+    _id: '19',
+    name: 'Butterscotch Cake',
+    image: food_19,
+    price: 30,
     description:
-      "Food provides essential nutrients for overall health and well-being",
-    category: "Pure Veg",
+      'Rich butterscotch cake with creamy frosting, irresistible and delightful.',
+    category: 'Cake',
   },
   {
-    _id: "22",
-    name: "Fried Cauliflower",
+    _id: '20',
+    name: 'Sliced Cake',
+    image: food_20,
+    price: 25,
+    description:
+      'Layers of moist cake with sweet frosting, a delightful treat.',
+    category: 'Cake',
+  },
+  {
+    _id: '21',
+    name: 'Garlic Mushroom',
+    image: food_21,
+    price: 19,
+    description:
+      'Savory garlic-infused mushrooms, a flavorful culinary delight.',
+    category: 'Pure Veg',
+  },
+  {
+    _id: '22',
+    name: 'Fried Cauliflower',
     image: food_22,
+    price: 29,
+    description: 'Crispy fried cauliflower florets with a savory golden crust',
+    category: 'Pure Veg',
+  },
+  {
+    _id: '23',
+    name: 'Mix Veg Pulao',
+    image: food_23,
     price: 22,
     description:
-      "Food provides essential nutrients for overall health and well-being",
-    category: "Pure Veg",
+      'Aromatic rice dish with assorted vegetables, flavorful and satisfying.',
+    category: 'Pure Veg',
   },
   {
-    _id: "23",
-    name: "Mix Veg Pulao",
-    image: food_23,
-    price: 10,
-    description:
-      "Food provides essential nutrients for overall health and well-being",
-    category: "Pure Veg",
-  },
-  {
-    _id: "24",
-    name: "Rice Zucchini",
+    _id: '24',
+    name: 'Rice Zucchini',
     image: food_24,
-    price: 12,
+    price: 30,
     description:
-      "Food provides essential nutrients for overall health and well-being",
-    category: "Pure Veg",
+      'Zesty rice with sautéed zucchini, a flavorful vegetarian delight.',
+    category: 'Pure Veg',
   },
   {
-    _id: "25",
-    name: "Cheese Pasta",
+    _id: '25',
+    name: 'Cheese Pasta',
     image: food_25,
-    price: 12,
-    description:
-      "Food provides essential nutrients for overall health and well-being",
-    category: "Pasta",
-  },
-  {
-    _id: "26",
-    name: "Tomato Pasta",
-    image: food_26,
-    price: 18,
-    description:
-      "Food provides essential nutrients for overall health and well-being",
-    category: "Pasta",
-  },
-  {
-    _id: "27",
-    name: "Creamy Pasta",
-    image: food_27,
-    price: 16,
-    description:
-      "Food provides essential nutrients for overall health and well-being",
-    category: "Pasta",
-  },
-  {
-    _id: "28",
-    name: "Chicken Pasta",
-    image: food_28,
     price: 24,
-    description:
-      "Food provides essential nutrients for overall health and well-being",
-    category: "Pasta",
+    description: 'Creamy cheese pasta with a hint of garlic and herbs.',
+    category: 'Pasta',
   },
   {
-    _id: "29",
-    name: "Buttter Noodles",
+    _id: '26',
+    name: 'Tomato Pasta',
+    image: food_26,
+    price: 29,
+    description: 'Classic tomato pasta: al dente pasta in rich tomato sauce',
+    category: 'Pasta',
+  },
+  {
+    _id: '27',
+    name: 'Creamy Pasta',
+    image: food_27,
+    price: 27,
+    description:
+      'Rich, creamy pasta with a velvety sauce and savory undertones.',
+    category: 'Pasta',
+  },
+  {
+    _id: '28',
+    name: 'Chicken Pasta',
+    image: food_28,
+    price: 31,
+    description:
+      'Savory chicken pasta with creamy garlic Parmesan sauce and herbs.',
+    category: 'Pasta',
+  },
+  {
+    _id: '29',
+    name: 'Butter Noodles',
     image: food_29,
-    price: 14,
+    price: 26,
     description:
-      "Food provides essential nutrients for overall health and well-being",
-    category: "Noodles",
+      'Delicious butter noodles tossed in savory seasoning and herbs.',
+    category: 'Noodles',
   },
   {
-    _id: "30",
-    name: "Veg Noodles",
+    _id: '30',
+    name: 'Veg Noodles',
     image: food_30,
-    price: 12,
+    price: 28,
     description:
-      "Food provides essential nutrients for overall health and well-being",
-    category: "Noodles",
+      'Stir-fried veg noodles tossed in savory soy sauce, a favorite!',
+    category: 'Noodles',
   },
   {
-    _id: "31",
-    name: "Somen Noodles",
+    _id: '31',
+    name: 'Somen Noodles',
     image: food_31,
-    price: 20,
+    price: 32,
     description:
-      "Food provides essential nutrients for overall health and well-being",
-    category: "Noodles",
+      'Delicate Japanese noodles, perfect in chilled summer soups or salads.',
+    category: 'Noodles',
   },
   {
-    _id: "32",
-    name: "Cooked Noodles",
+    _id: '32',
+    name: 'Cooked Noodles',
     image: food_32,
-    price: 15,
+    price: 29,
     description:
-      "Food provides essential nutrients for overall health and well-being",
-    category: "Noodles",
+      'Tender noodles, perfectly cooked for savory satisfaction in every bite.',
+    category: 'Noodles',
   },
 ];
