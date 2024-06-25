@@ -1,0 +1,75 @@
+@import "../../index.scss";
+
+.header-comp {
+  height: 34vw;
+  margin: 3rem auto;
+  background: url("../../images/header_img.png") no-repeat;
+  background-size: contain;
+  position: relative;
+
+  &-contents {
+    position: absolute;
+    display: flex;
+    max-width: 50%;
+    bottom: 10%;
+    left: 6vw;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    animation: fadeIn 3s;
+
+    h2 {
+      font-weight: 500;
+      font-size: max(4.5vw, 2.2rem);
+      color: $white;
+    }
+
+    p {
+      font-size: 1.1vw;
+      color: $white;
+
+      @include respond(medium) {
+        display: none;
+      }
+
+      @include respond(small) {
+        display: none;
+      }
+    }
+
+    button {
+      border: none;
+      color: $secondary-color;
+      font-weight: 500;
+      padding: 1vw 2.3vw;
+      background-color: $white;
+      font-size: max(1vw, 13px);
+      border-radius: 5rem;
+      cursor: pointer;
+
+      &:hover {
+        color: $white;
+        background-color: $primary-color-one;
+      }
+
+      @include respond(medium) {
+        padding: 2vw 4vw;
+      }
+      @include respond(small) {
+        padding: 2vw 4vw;
+      }
+    }
+
+    @include respond(large) {
+      max-width: 45%;
+    }
+
+    @include respond(medium) {
+      max-width: 65%;
+    }
+  }
+
+  @include respond(large) {
+    height: 38vw;
+  }
+}
