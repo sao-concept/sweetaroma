@@ -1,3 +1,5 @@
+// src/components/ExploreMenuComponent/ExploreMenuComponent.jsx
+
 import React from "react";
 import "./ExploreMenuComponent.scss";
 import { menu_list } from "../../assets/assets";
