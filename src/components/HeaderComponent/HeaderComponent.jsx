@@ -1,3 +1,5 @@
+// src/components/HeaderComponent/HeaderComponent.jsx
+
 import React from "react";
 import "./HeaderComponent.scss";
 
