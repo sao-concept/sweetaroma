@@ -1,0 +1,66 @@
+@import "../../index.scss";
+
+.explore-menu-comp {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  h1 {
+    font-weight: 500;
+    color: $secondary-color;
+  }
+
+  &-text {
+    max-width: 60%;
+    color: $secondary-color;
+    font-size: 1.6rem;
+
+    @include respond(large) {
+      max-width: 100%;
+      font-size: 1.4rem;
+    }
+  }
+
+  &-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    overflow-x: scroll;
+    margin: 2rem 0rem;
+    text-align: center;
+
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  &-list-item img {
+    width: 7.5vw;
+    min-width: 8rem;
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 50%;
+  }
+
+  &-list-item p {
+    margin-top: 1rem;
+    color: $secondary-color;
+    font-size: max(1.4vw, 1.6rem);
+    cursor: pointer;
+  }
+
+  hr {
+    margin: 1rem 0rem;
+    height: 0.2rem;
+    background-color: $white;
+    border: none;
+  }
+
+  &-list-item .active {
+    border: 0.4rem solid $primary-color-one;
+    padding: 0.2rem;
+  }
+}
