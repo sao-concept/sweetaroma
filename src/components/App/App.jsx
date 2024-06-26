@@ -6,11 +6,11 @@ function App() {
   return (
     <div className="App">
       <NavbarComponent />
-      {/* <Routes>
-        <Route path="/" element={<HomePage userData={userData} />} />
-        <Route path="/cartpage" element={<CartPage />} />
-        <Route path="/placeorderpage" element={<PlaceOrderPage />} />
-      </Routes> */}
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        {/* <Route path="/cartpage" element={<CartPage />} />
+        <Route path="/placeorderpage" element={<PlaceOrderPage />} /> */}
+      </Routes>
     </div>
   );
 }
