@@ -4,7 +4,10 @@ import NavbarComponent from "../NavbarComponent/NavbarComponent";
 function App() {
   return (
     <div className="App">
-      <NavbarComponent />
+      <NavbarComponent
+        setShowLoginPage={setShowLoginPage}
+        setUserData={setUserData}
+      />
     </div>
   );
 }
