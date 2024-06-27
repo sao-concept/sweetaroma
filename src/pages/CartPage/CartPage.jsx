@@ -1,3 +1,5 @@
+// src/pages/CartPage/CartPage.jsx
+
 import React, { useContext } from "react";
 import "./CartPage.scss";
 import { StoreContext } from "../../contextAPI/StoreContextAPI";
