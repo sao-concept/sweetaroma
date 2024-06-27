@@ -3,7 +3,7 @@ import "./HomePage.scss";
 import HeaderComponent from "../../components/HeaderComponent/HeaderComponent";
 import ExploreMenuComponent from "../../components/ExploreMenuComponent/ExploreMenuComponent";
 import FoodDisplayComponent from "../../components/FoodDisplayComponent/FoodDisplayComponent";
-// import AppDownloadComponent from "../../components/AppDownloadComponent/AppDownloadComponent";
+import AppDownloadComponent from "../../components/AppDownloadComponent/AppDownloadComponent";
 
 function HomePage() {
   const [categorylist, setCategorylist] = useState("All");
@@ -16,7 +16,7 @@ function HomePage() {
         setCategorylist={setCategorylist}
       />
       <FoodDisplayComponent categorylist={categorylist} />
-      {/* <AppDownloadComponent /> */}
+      <AppDownloadComponent />
     </div>
   );
 }
