@@ -1,0 +1,117 @@
+@import "../../index.scss";
+
+.cart-page {
+  margin-top: 10rem;
+
+  &-items-title {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr;
+    align-items: center;
+    color: $secondary-color;
+    font-size: max(1vw, 1.2rem);
+  }
+
+  &-items-item {
+    margin: 1rem 0rem;
+    color: $black;
+
+    img {
+      width: 5rem;
+    }
+  }
+
+  hr {
+    height: 1px;
+    border: none;
+    color: $white;
+  }
+
+  &-items-item .cross-close {
+    cursor: pointer;
+  }
+
+  &-bottom {
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-between;
+    gap: max(12vw, 2rem);
+
+    @include respond(small) {
+      flex-direction: column-reverse;
+    }
+
+    @include respond(medium) {
+      flex-direction: column-reverse;
+    }
+  }
+
+  &-total {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    &-details {
+      display: flex;
+      justify-content: space-between;
+      color: $secondary-color;
+      font-size: 1.6rem;
+    }
+
+    hr {
+      margin: 1rem 0rem;
+    }
+
+    button {
+      border: none;
+      color: $white;
+      background-color: $primary-color-one;
+      width: max(15vw, 20rem);
+      padding: 1.2rem 0rem;
+      border-radius: 1rem;
+      cursor: pointer;
+    }
+  }
+
+  &-promocode {
+    flex: 1;
+
+    @include respond(small) {
+      justify-content: start;
+    }
+
+    @include respond(medium) {
+      justify-content: start;
+    }
+
+    p {
+      color: $secondary-color;
+      font-size: 1.6rem;
+    }
+
+    &-input {
+      margin-top: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: $white;
+      border-radius: 1rem;
+
+      input {
+        background: transparent;
+        border: none;
+        outline: none;
+        padding-left: 1rem;
+      }
+
+      button {
+        width: max(10vw, 15rem);
+        padding: 1.2rem 0.5rem;
+        background-color: $black;
+        border: none;
+        color: $white;
+        border-radius: 1rem;
+      }
+    }
+  }
+}
