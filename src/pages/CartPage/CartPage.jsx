@@ -26,28 +26,26 @@ function CartPage() {
         </div>
         <br />
         <hr />
-        {food_list.map((item, index) => {
-          if (cartItemsSelected[item._id] > 0) {
-            return (
-              <>
-                <div className="cart-page-items-title cart-page-items-item">
-                  <img src={item.image} alt="" />
-                  <p>{item.name}</p>
-                  <p>${item.price}</p>
-                  <p>{cartItemsSelected[item._id]}</p>
-                  <p>${item.price * cartItemsSelected[item._id]}</p>
-                  <p
-                    className="cross-close"
-                    onClick={() => removeFromCartSelected(item._id)}
-                  >
-                    x
-                  </p>
-                </div>
-                <hr />
-              </>
-            );
-          }
-        })}
+        {food_list.map((item, index) =>
+          cartItemsSelected[item._id] > 0 ? (
+            <>
+              <div className="cart-page-items-title cart-page-items-item">
+                <img src={item.image} alt="" />
+                <p>{item.name}</p>
+                <p>${item.price}</p>
+                <p>{cartItemsSelected[item._id]}</p>
+                <p>${item.price * cartItemsSelected[item._id]}</p>
+                <p
+                  className="cross-close"
+                  onClick={() => removeFromCartSelected(item._id)}
+                >
+                  x
+                </p>
+              </div>
+              <hr />
+            </>
+          ) : null
+        )}
       </div>
       <div className="cart-page-bottom">
         <div className="cart-page-total">
