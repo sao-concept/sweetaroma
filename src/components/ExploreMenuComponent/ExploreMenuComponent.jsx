@@ -1,4 +1,4 @@
-// src/components/ExploreMenuComponent/ExploreMenuComponent.jsx
+//  src/components/ExploreMenuComponent/ExploreMenuComponent.jsx
 
 import React from "react";
 import "./ExploreMenuComponent.scss";
