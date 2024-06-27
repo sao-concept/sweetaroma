@@ -7,7 +7,10 @@ function App() {
   return (
     <>
       <div className="App">
-        <NavbarComponent />
+        <NavbarComponent
+          setShowLoginPage={setShowLoginPage}
+          setUserData={setUserData}
+        />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/cartpage" element={<CartPage />} />
