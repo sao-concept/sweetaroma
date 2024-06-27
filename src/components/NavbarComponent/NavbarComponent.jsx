@@ -1,4 +1,4 @@
-// src/components/NavbarComponent/NavbarComponent.jsx
+//  src/components/NavbarComponent/NavbarComponent.jsx
 
 import React, { useContext, useState } from "react";
 import "./NavbarComponent.scss";
