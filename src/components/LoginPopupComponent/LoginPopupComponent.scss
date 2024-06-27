@@ -1,0 +1,96 @@
+@import "../../index.scss";
+
+.login-popup-comp {
+  position: absolute;
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(
+    to bottom,
+    rgba($secondary-color, 0.9),
+    rgba($secondary-color, 0.9)
+  );
+  display: grid;
+
+  &-container {
+    place-self: center;
+    width: max(23vw, 33rem);
+    color: $secondary-color;
+    background-color: $white;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    padding: 2.5rem 3rem;
+    border-radius: 0.8rem;
+    font-size: 1.4rem;
+    animation: fadeIn 0.5s;
+  }
+
+  &-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: $black;
+
+    img {
+      width: 1.6rem;
+      cursor: pointer;
+    }
+  }
+
+  &-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    input {
+      outline: none;
+      border: 0.1rem solid $secondary-color-two;
+      padding: 1rem;
+      border-radius: 0.4rem;
+    }
+  }
+
+  &-container button {
+    border: none;
+    padding: 1rem;
+    border-radius: 0.4rem;
+    color: $white;
+    background-color: $primary-color-one;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+  &-condition {
+    display: flex;
+    align-items: start;
+    gap: 0.8rem;
+    margin-top: -1.5rem;
+
+    input {
+      margin-top: 0.5rem;
+    }
+  }
+
+  p span {
+    color: $primary-color-one;
+    font-weight: 500;
+    cursor: pointer;
+  }
+}
+
+.error-message {
+  color: $primary-color-two;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+.success-message {
+  color: green;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+.google-signin {
+  background-color: transparent;
+}
