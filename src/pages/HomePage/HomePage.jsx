@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./HomePage.scss";
 import HeaderComponent from "../../components/HeaderComponent/HeaderComponent";
 import ExploreMenuComponent from "../../components/ExploreMenuComponent/ExploreMenuComponent";
-// import FoodDisplayComponent from "../../components/FoodDisplayComponent/FoodDisplayComponent";
+import FoodDisplayComponent from "../../components/FoodDisplayComponent/FoodDisplayComponent";
 // import AppDownloadComponent from "../../components/AppDownloadComponent/AppDownloadComponent";
 
 function HomePage() {
@@ -15,8 +15,8 @@ function HomePage() {
         categorylist={categorylist}
         setCategorylist={setCategorylist}
       />
-      {/* <FoodDisplayComponent categorylist={categorylist} />
-      <AppDownloadComponent /> */}
+      <FoodDisplayComponent categorylist={categorylist} />
+      {/* <AppDownloadComponent /> */}
     </div>
   );
 }
