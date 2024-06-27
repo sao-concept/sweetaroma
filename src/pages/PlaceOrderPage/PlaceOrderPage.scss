@@ -1,0 +1,51 @@
+@import "../../index.scss";
+
+.place-order-comp {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 5rem;
+  margin-top: 10rem;
+
+  @include respond(small) {
+    flex-direction: column;
+  }
+
+  @include respond(medium) {
+    flex-direction: column;
+  }
+
+  &-left {
+    width: 100%;
+    max-width: max(30%, 50rem);
+
+    input {
+      margin-bottom: 1.5rem;
+      width: 100%;
+      padding: 1rem;
+      border: 1px solid $secondary-color;
+      border-radius: 1rem;
+      outline-color: $primary-color-one;
+    }
+  }
+
+  &-left .place-order-title {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 5rem;
+  }
+
+  &-left .place-order-multi-fields {
+    display: flex;
+    gap: 1rem;
+  }
+
+  &-right {
+    width: 100%;
+    max-width: max(40%, 50rem);
+  }
+
+  .cart-page-total button {
+    margin-top: 3rem;
+  }
+}
