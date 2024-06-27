@@ -8,8 +8,8 @@ function App() {
       <NavbarComponent />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        {/* <Route path="/cartpage" element={<CartPage />} />
-        <Route path="/placeorderpage" element={<PlaceOrderPage />} /> */}
+        <Route path="/cartpage" element={<CartPage />} />
+        {/* <Route path="/placeorderpage" element={<PlaceOrderPage />} /> */}
       </Routes>
     </div>
   );
