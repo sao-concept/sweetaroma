@@ -2,12 +2,18 @@ import "./App.scss";
 import NavbarComponent from "../NavbarComponent/NavbarComponent";
 import { Route, Routes } from "react-router-dom";
 import FooterComponent from "../FooterComponent/FooterComponent";
+import LoginPopupComponent from "../LoginPopupComponent/LoginPopupComponent";
 
 function App() {
   return (
     <>
       <div className="App">
         <NavbarComponent
+          setShowLoginPage={setShowLoginPage}
+          setUserData={setUserData}
+        />
+
+        <LoginPopupComponent
           setShowLoginPage={setShowLoginPage}
           setUserData={setUserData}
         />
