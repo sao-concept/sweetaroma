@@ -23,6 +23,7 @@ function App() {
           <Route path="/placeorderpage" element={<PlaceOrderPage />} />
         </Routes>
       </div>
+      <ScrollToTopComponent />
       <FooterComponent />
     </>
   );
