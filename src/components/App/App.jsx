@@ -5,13 +5,23 @@ import FooterComponent from "../FooterComponent/FooterComponent";
 import LoginPopupComponent from "../LoginPopupComponent/LoginPopupComponent";
 import ScrollToTopComponent from "../ScrollToTopComponent/ScrollToTopComponent";
 import WelcomeMessageComponent from "../WelcomeMessageComponent/WelcomeMessageComponent";
+import { AuthProvider } from "../../contextAPI/AuthContext";
 import PurchaseHistoryProviderComponent from "../PurchaseHistoryProviderComponent/PurchaseHistoryProviderComponent";
 import PurchaseHistoryPage from "../../pages/PurchaseHistoryPage/PurchaseHistoryPage";
 
 function App() {
+  const [showLoginPage, setShowLoginPage] = useState(false);
+  const [userData, setUserData] = useState(null);
+
   return (
-    <>
-      <div className="App">
+    <AuthProvider>
+      {showLoginPage && (
+        <LoginPopupComponent
+          setShowLoginPage={setShowLoginPage}
+          setUserData={setUserData}
+        />
+      )}
+      <div className="app">
         <NavbarComponent
           setShowLoginPage={setShowLoginPage}
           setUserData={setUserData}
@@ -43,7 +53,7 @@ function App() {
       </div>
       <ScrollToTopComponent />
       <FooterComponent />
-    </>
+    </AuthProvider>
   );
 }
 
