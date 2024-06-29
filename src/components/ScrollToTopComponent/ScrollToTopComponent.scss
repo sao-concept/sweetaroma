@@ -1,0 +1,42 @@
+@import "../../index.scss";
+
+.scroll-to-top {
+  position: sticky;
+  bottom: 1rem;
+  left: 138rem;
+  z-index: 99;
+  text-align: center;
+  width: 6rem;
+  height: 6rem;
+  cursor: pointer;
+
+  background-color: $primary-color-one;
+  border-radius: 50%;
+  padding: 0.5rem;
+  box-shadow: 0rem 0rem 1rem rgba($black, 0.2);
+
+  font-size: 4rem;
+  color: $white;
+
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    background-color: $primary-color-two;
+  }
+
+  &:active {
+    transform: scale(1.5);
+  }
+
+  @include respond(medium) {
+    width: 5rem;
+    height: 5rem;
+    font-size: 3rem;
+  }
+
+  @include respond(small) {
+    width: 5rem;
+    height: 5rem;
+    font-size: 3rem;
+  }
+}
