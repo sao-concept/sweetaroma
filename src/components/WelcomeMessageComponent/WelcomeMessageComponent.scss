@@ -1,0 +1,38 @@
+@import "../../index.scss";
+
+.welcome-message {
+  display: flex;
+  justify-content: space-between;
+
+  @include respond(small) {
+    flex-direction: column;
+    align-items: center;
+  }
+  @include respond(medium) {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  p {
+    font-size: 3rem;
+    color: $primary-color-one;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  button {
+    background: transparent;
+    cursor: pointer;
+    padding: 1rem 3rem;
+    border: 1px solid $primary-color-one;
+    border-radius: 1rem;
+    color: $secondary-color;
+    font-size: 1.6rem;
+    transition: 0.3s;
+
+    &:hover {
+      background-color: $primary-color-one;
+      color: $white;
+    }
+  }
+}
