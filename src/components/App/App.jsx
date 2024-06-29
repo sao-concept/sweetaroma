@@ -5,6 +5,8 @@ import FooterComponent from "../FooterComponent/FooterComponent";
 import LoginPopupComponent from "../LoginPopupComponent/LoginPopupComponent";
 import ScrollToTopComponent from "../ScrollToTopComponent/ScrollToTopComponent";
 import WelcomeMessageComponent from "../WelcomeMessageComponent/WelcomeMessageComponent";
+import PurchaseHistoryProviderComponent from "../PurchaseHistoryProviderComponent/PurchaseHistoryProviderComponent";
+import PurchaseHistoryPage from "../../pages/PurchaseHistoryPage/PurchaseHistoryPage";
 
 function App() {
   return (
@@ -28,6 +30,15 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/cartpage" element={<CartPage />} />
           <Route path="/placeorderpage" element={<PlaceOrderPage />} />
+
+          <Route
+            path="/purchase-history"
+            element={
+              <PurchaseHistoryProviderComponent>
+                <PurchaseHistoryPage />
+              </PurchaseHistoryProviderComponent>
+            }
+          />
         </Routes>
       </div>
       <ScrollToTopComponent />
