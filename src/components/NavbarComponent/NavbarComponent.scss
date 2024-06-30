@@ -191,14 +191,14 @@
           display: block;
           width: 95%;
           padding: 1rem;
-          background: $secondary-color;
+          background: $secondary-color-two;
           color: $white;
           text-align: center;
           text-decoration: none;
           padding: 2rem;
 
           &:hover {
-            background: darken($secondary-color, 10%);
+            background: $secondary-color;
           }
         }
       }
