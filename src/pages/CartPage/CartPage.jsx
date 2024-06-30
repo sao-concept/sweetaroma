@@ -1,5 +1,3 @@
-// src/pages/CartPage/CartPage.jsx
-
 import React, { useContext } from "react";
 import "./CartPage.scss";
 import { StoreContext } from "../../contextAPI/StoreContextAPI";
@@ -34,9 +32,9 @@ function CartPage() {
               <div className="cart-page-items-title cart-page-items-item">
                 <img src={item.image} alt="" />
                 <p>{item.name}</p>
-                <p>${item.price}</p>
+                <p>₦{item.price}</p>
                 <p>{cartItemsSelected[item._id]}</p>
-                <p>${item.price * cartItemsSelected[item._id]}</p>
+                <p>₦{item.price * cartItemsSelected[item._id]}</p>
                 <p
                   className="cross-close"
                   onClick={() => removeFromCartSelected(item._id)}
@@ -55,17 +53,17 @@ function CartPage() {
           <div>
             <div className="cart-page-total-details">
               <p>Subtotal</p>
-              <p>${getTotalCartCost()}</p>
+              <p>₦{getTotalCartCost()}</p>
             </div>
             <hr />
             <div className="cart-page-total-details">
               <p>Delivery Cost</p>
-              <p>${getTotalCartCost() === 0 ? 0 : 2}</p>
+              <p>₦{getTotalCartCost() === 0 ? 0 : 2500}</p>
             </div>
             <hr />
             <div className="cart-page-total-details">
               <b>Total Cost</b>
-              <b>${getTotalCartCost() === 0 ? 0 : getTotalCartCost() + 2}</b>
+              <b>₦{getTotalCartCost() === 0 ? 0 : getTotalCartCost() + 2500}</b>
             </div>
           </div>
           <button onClick={() => navigatePage("/placeorderpage")}>
