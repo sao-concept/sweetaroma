@@ -4,14 +4,13 @@ import { StoreContext } from "../../contextAPI/StoreContextAPI";
 import FoodItemComponent from "../FoodItemComponent/FoodItemComponent";
 
 function FoodDisplayComponent({ categorylist }) {
-  const { food_list } = useContext(StoreContext);
+  const { foodList } = useContext(StoreContext);
 
   return (
     <div className="food-disp" id="food-disp">
       <h2>Popular dishes around you</h2>
-
       <div className="food-disp-list">
-        {food_list.map((item, index) =>
+        {foodList.map((item, index) =>
           categorylist === "All" || categorylist === item.category ? (
             <FoodItemComponent
               key={index}
