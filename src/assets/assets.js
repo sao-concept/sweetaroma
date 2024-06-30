@@ -1,3 +1,5 @@
+// src/assets/assets.js
+
 import basket_icon from "../images/basket_icon.png";
 import logo from "../images/logo.png";
 import header_img from "../images/header_img.png";
