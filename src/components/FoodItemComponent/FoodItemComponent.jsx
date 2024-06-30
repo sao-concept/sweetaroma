@@ -41,7 +41,7 @@ function FoodItemComponent({ id, name, price, description, image }) {
           <img src={assets.rating_starts} alt="rating stars" />
         </div>
         <p className="food-item-comp-desc">{description}</p>
-        <p className="food-item-comp-price">${price}</p>
+        <p className="food-item-comp-price">₦{price}</p>
       </div>
     </div>
   );
