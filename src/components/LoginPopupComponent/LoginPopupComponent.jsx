@@ -2,9 +2,9 @@
 import React, { useContext, useState } from "react";
 import "./LoginPopupComponent.scss";
 import { assets } from "../../assets/assets";
-// import FirebaseAuth from "../../config/FirebaseAuth";
+import FirebaseAuth from "../../config/FirebaseAuth";
 import { useNavigate } from "react-router-dom";
-// import { AuthContext } from "../../contextAPI/AuthContext";
+import { AuthContext } from "../../contextAPI/AuthContext"; // Import AuthContext
 
 const {
   signInWithEmailAndPassword,
@@ -19,7 +19,7 @@ const LoginPopupComponent = ({ setShowLoginPage, setUserData }) => {
   const [errorMessage, setErrorMessage] = useState("");
   const [successMessage, setSuccessMessage] = useState("");
   const navigate = useNavigate();
-  //   const { signIn } = useContext(AuthContext);
+  const { signIn } = useContext(AuthContext); // Use AuthContext
 
   const handleLogin = () => {
     signInWithEmailAndPassword(email, password)
@@ -28,7 +28,7 @@ const LoginPopupComponent = ({ setShowLoginPage, setUserData }) => {
         setSuccessMessage("Login successful!");
         setTimeout(() => {
           setUserData({ email });
-          //   signIn();
+          signIn(); // Update AuthContext state
           navigate("/");
           setShowLoginPage(false);
         }, 2000);
@@ -66,7 +66,7 @@ const LoginPopupComponent = ({ setShowLoginPage, setUserData }) => {
         setSuccessMessage("Google sign-in successful!");
         setTimeout(() => {
           setUserData({ email: user.email });
-          //   signIn();
+          signIn(); // Update AuthContext state
           navigate("/");
           setShowLoginPage(false);
         }, 2000);
