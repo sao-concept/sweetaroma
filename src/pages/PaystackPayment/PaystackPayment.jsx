@@ -69,7 +69,7 @@ function PaystackPayment() {
               type="email"
               id="email-address"
               value={formData.email}
-              readOnly
+              disabled
             />
           </div>
 
@@ -79,7 +79,7 @@ function PaystackPayment() {
               type="tel"
               id="amount"
               value={`₦${totalCost + 2500}`}
-              readOnly
+              disabled
             />
           </div>
 
@@ -89,7 +89,7 @@ function PaystackPayment() {
               type="text"
               id="first-name"
               value={formData.firstName}
-              readOnly
+              disabled
             />
           </div>
 
@@ -99,7 +99,7 @@ function PaystackPayment() {
               type="text"
               id="last-name"
               value={formData.lastName}
-              readOnly
+              disabled
             />
           </div>
 
