@@ -1,0 +1,295 @@
+{
+  "foods": [
+    {
+      "_id": "1",
+      "name": "Greek salad",
+      "image": "/foodImages/food_1.png",
+      "price": 22000,
+      "description": "Fresh Greek salad with tomatoes, cucumbers, olives, and feta cheese.",
+      "category": "Salad"
+    },
+    {
+      "_id": "2",
+      "name": "Veg salad",
+      "image": "/foodImages/food_2.png",
+      "price": 25000,
+      "description": "A fresh, vibrant mix of vegetables in a healthy salad.",
+      "category": "Salad"
+    },
+    {
+      "_id": "3",
+      "name": "Clover Salad",
+      "image": "/foodImages/food_3.png",
+      "price": 23000,
+      "description": "Fresh, vibrant salad with clover, mixed greens, and light dressing.",
+      "category": "Salad"
+    },
+    {
+      "_id": "4",
+      "name": "Chicken Salad",
+      "image": "/foodImages/food_4.png",
+      "price": 30000,
+      "description": "Fresh chicken salad with crisp greens, tangy dressing, and veggies.",
+      "category": "Salad"
+    },
+    {
+      "_id": "5",
+      "name": "Lasagna Rolls",
+      "image": "/foodImages/food_5.png",
+      "price": 19000,
+      "description": "Rolled lasagna filled with cheese, sauce, and savory ingredients.",
+      "category": "Rolls"
+    },
+    {
+      "_id": "6",
+      "name": "Peri Peri Rolls",
+      "image": "/foodImages/food_6.png",
+      "price": 17000,
+      "description": "Spicy Peri Peri chicken wrapped in warm, soft rolls.",
+      "category": "Rolls"
+    },
+    {
+      "_id": "7",
+      "name": "Chicken Rolls",
+      "image": "/foodImages/food_7.png",
+      "price": 30000,
+      "description": "Savory chicken rolls with flavorful fillings, perfect for any occasion.",
+      "category": "Rolls"
+    },
+    {
+      "_id": "8",
+      "name": "Veg Rolls",
+      "image": "/foodImages/food_8.png",
+      "price": 23000,
+      "description": "Vegetarian rolls filled with flavorful veggies, wrapped in soft tortillas.",
+      "category": "Rolls"
+    },
+    {
+      "_id": "9",
+      "name": "Ripple Ice Cream",
+      "image": "/foodImages/food_9.png",
+      "price": 27000,
+      "description": "Smooth, creamy ice cream with swirls of delightful flavors.",
+      "category": "Deserts"
+    },
+    {
+      "_id": "10",
+      "name": "Fruit Ice Cream",
+      "image": "/foodImages/food_10.png",
+      "price": 28000,
+      "description": "Creamy blend of fruit and dairy, a refreshing frozen treat.",
+      "category": "Deserts"
+    },
+    {
+      "_id": "11",
+      "name": "Jar Ice Cream",
+      "image": "/foodImages/food_11.png",
+      "price": 12000,
+      "description": "Creamy indulgence served from a jar: delicious, convenient, and satisfying.",
+      "category": "Deserts"
+    },
+    {
+      "_id": "12",
+      "name": "Vanilla Ice Cream",
+      "image": "/foodImages/food_12.png",
+      "price": 17000,
+      "description": "Smooth, creamy vanilla ice cream: a timeless indulgence for all ages.",
+      "category": "Deserts"
+    },
+    {
+      "_id": "13",
+      "name": "Chicken Sandwich",
+      "image": "/foodImages/food_13.png",
+      "price": 19000,
+      "description": "Succulent chicken in a toasted bun with fresh toppings and sauce.",
+      "category": "Sandwich"
+    },
+    {
+      "_id": "14",
+      "name": "Vegan Sandwich",
+      "image": "/foodImages/food_14.png",
+      "price": 29000,
+      "description": "Plant-based delight with fresh vegetables and savory spreads on bread.",
+      "category": "Sandwich"
+    },
+    {
+      "_id": "15",
+      "name": "Grilled Sandwich",
+      "image": "/foodImages/food_15.png",
+      "price": 19000,
+      "description": "Savory grilled sandwich with melted cheese and crispy golden bread.",
+      "category": "Sandwich"
+    },
+    {
+      "_id": "16",
+      "name": "Bread Sandwich",
+      "image": "/foodImages/food_16.png",
+      "price": 28000,
+      "description": "Simple yet satisfying: a classic bread sandwich, comfort in simplicity.",
+      "category": "Sandwich"
+    },
+    {
+      "_id": "17",
+      "name": "Cup Cake",
+      "image": "/foodImages/food_17.png",
+      "price": 19000,
+      "description": "A small, sweet treat, baked to perfection in miniature form.",
+      "category": "Cake"
+    },
+    {
+      "_id": "18",
+      "name": "Vegan Cake",
+      "image": "/foodImages/food_18.png",
+      "price": 15000,
+      "description": "Plant-based delight: Vegan cake, rich, moist, cruelty-free, guilt-free indulgence.",
+      "category": "Cake"
+    },
+    {
+      "_id": "19",
+      "name": "Butterscotch Cake",
+      "image": "/foodImages/food_19.png",
+      "price": 30000,
+      "description": "Rich butterscotch cake with creamy frosting, irresistible and delightful.",
+      "category": "Cake"
+    },
+    {
+      "_id": "20",
+      "name": "Sliced Cake",
+      "image": "/foodImages/food_20.png",
+      "price": 25000,
+      "description": "Layers of moist cake with sweet frosting, a delightful treat.",
+      "category": "Cake"
+    },
+    {
+      "_id": "21",
+      "name": "Garlic Mushroom",
+      "image": "/foodImages/food_21.png",
+      "price": 19000,
+      "description": "Savory garlic-infused mushrooms, a flavorful culinary delight.",
+      "category": "Pure Veg"
+    },
+    {
+      "_id": "22",
+      "name": "Fried Cauliflower",
+      "image": "/foodImages/food_22.png",
+      "price": 29000,
+      "description": "Crispy fried cauliflower florets with a savory golden crust.",
+      "category": "Pure Veg"
+    },
+    {
+      "_id": "23",
+      "name": "Mix Veg Pulao",
+      "image": "/foodImages/food_23.png",
+      "price": 22000,
+      "description": "Aromatic rice dish with assorted vegetables, flavorful and satisfying.",
+      "category": "Pure Veg"
+    },
+    {
+      "_id": "24",
+      "name": "Rice Zucchini",
+      "image": "/foodImages/food_24.png",
+      "price": 30000,
+      "description": "Zesty rice with sautéed zucchini, a flavorful vegetarian delight.",
+      "category": "Pure Veg"
+    },
+    {
+      "_id": "25",
+      "name": "Cheese Pasta",
+      "image": "/foodImages/food_25.png",
+      "price": 24000,
+      "description": "Creamy cheese pasta with a hint of garlic and herbs.",
+      "category": "Pasta"
+    },
+    {
+      "_id": "26",
+      "name": "Tomato Pasta",
+      "image": "/foodImages/food_26.png",
+      "price": 29000,
+      "description": "Classic tomato pasta: al dente pasta in rich tomato sauce.",
+      "category": "Pasta"
+    },
+    {
+      "_id": "27",
+      "name": "Creamy Pasta",
+      "image": "/foodImages/food_27.png",
+      "price": 27000,
+      "description": "Rich, creamy pasta with a velvety sauce and savory undertones.",
+      "category": "Pasta"
+    },
+    {
+      "_id": "28",
+      "name": "Chicken Pasta",
+      "image": "/foodImages/food_28.png",
+      "price": 31000,
+      "description": "Savory chicken pasta with creamy garlic Parmesan sauce and herbs.",
+      "category": "Pasta"
+    },
+    {
+      "_id": "29",
+      "name": "Butter Noodles",
+      "image": "/foodImages/food_29.png",
+      "price": 26000,
+      "description": "Delicious butter noodles tossed in savory seasoning and herbs.",
+      "category": "Noodles"
+    },
+    {
+      "_id": "30",
+      "name": "Veg Noodles",
+      "image": "/foodImages/food_30.png",
+      "price": 28000,
+      "description": "Stir-fried veg noodles tossed in savory soy sauce, a favorite!",
+      "category": "Noodles"
+    },
+    {
+      "_id": "31",
+      "name": "Somen Noodles",
+      "image": "/foodImages/food_31.png",
+      "price": 32000,
+      "description": "Delicate Japanese noodles, perfect in chilled summer soups or salads.",
+      "category": "Noodles"
+    },
+    {
+      "_id": "32",
+      "name": "Cooked Noodles",
+      "image": "/foodImages/food_32.png",
+      "price": 29000,
+      "description": "Tender noodles, perfectly cooked for savory satisfaction in every bite.",
+      "category": "Noodles"
+    }
+  ],
+
+  "menus": [
+    {
+      "menu_name": "Salad",
+      "menu_image": "/foodImages/menu_1.png"
+    },
+    {
+      "menu_name": "Rolls",
+      "menu_image": "/foodImages/menu_2.png"
+    },
+    {
+      "menu_name": "Deserts",
+      "menu_image": "/foodImages/menu_3.png"
+    },
+    {
+      "menu_name": "Sandwich",
+      "menu_image": "/foodImages/menu_4.png"
+    },
+    {
+      "menu_name": "Cake",
+      "menu_image": "/foodImages/menu_5.png"
+    },
+    {
+      "menu_name": "Pure Veg",
+      "menu_image": "/foodImages/menu_6.png"
+    },
+    {
+      "menu_name": "Pasta",
+      "menu_image": "/foodImages/menu_7.png"
+    },
+    {
+      "menu_name": "Noodles",
+      "menu_image": "/foodImages/menu_8.png"
+    }
+  ]
+}
