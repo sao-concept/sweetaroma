@@ -1,11 +1,9 @@
-// src/components/HeaderComponent/HeaderComponent.scss
-
 @import "../../index.scss";
 
 .header-comp {
   height: 34vw;
   margin: 3rem auto;
-  background: url("../../images/header_img.png") no-repeat;
+  background: url("../../iconImages/header_img.png") no-repeat;
   background-size: contain;
   position: relative;
 
