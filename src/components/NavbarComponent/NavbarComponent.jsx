@@ -1,12 +1,9 @@
-//  src/components/NavbarComponent/NavbarComponent.jsx
-
 import React, { useContext, useState } from "react";
 import "./NavbarComponent.scss";
 import { assets } from "../../assets/assets";
 import { Link } from "react-router-dom";
 import { StoreContext } from "../../contextAPI/StoreContextAPI";
 import { AuthContext } from "../../contextAPI/AuthContext";
-
 import { FaBars, FaTimes } from "react-icons/fa";
 
 function NavbarComponent({ setShowLoginPage, setUserData }) {
