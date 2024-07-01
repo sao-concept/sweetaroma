@@ -23,11 +23,13 @@ SweetAroma aims to revolutionize the food ordering experience by combining the e
 
 - **ReactJS**: For building the front-end application.
 - **SASS**: For styling of the application.
-- **Firebase**: For user authentication and database management.
+- **React Router**: For routing multiple pages on the App.
+- **json-server**: For mock API simulation.
 
 ## Third-Party Services
 
 - **Firebase**: Utilized for authentication to ensure secure and easy access for users.
+- **Paystack**: Utilized for seemless payment gateway for user convenience.
 
 ## Installation and Setup
 
@@ -61,13 +63,23 @@ To set up the project locally, follow these steps:
    Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.
-You may also see any lint errors in the console.
+
+6. **Open a new Terminal**
+
+7. **Run the below command**
+
+   ```bash
+   json-server public/db.json --port 3001
+   ```
+
+   This will initiate a mock-API simulation to serve items required on the page.
 
 ## Usage
 
-- **Browse Food Options**: Users can explore a variety of food items available for delivery.
+- **Browse Food Options**: Users can explore a variety of food items available for delivery and also get to filter their search based on category.
 - **Place Orders**: Seamlessly place orders through an intuitive interface.
 - **User Authentication**: Securely sign up, log in, and manage accounts using Firebase.
+- **Payment Gateway**: Seemlessly make payment for your order(s) with Paystack.
 
 ## Contributing
 
@@ -80,7 +92,7 @@ Contributions are welcome to enhance the SweetAroma project. To contribute, foll
    ```
 3. **Make your changes and commit them**:
    ```bash
-   git commit -m "Add feature: your feature name"
+   git commit -m "Added feature/your-feature-name"
    ```
 4. **Push to the branch**:
    ```bash
