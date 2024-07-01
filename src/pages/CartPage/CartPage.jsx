@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 function CartPage() {
   const {
     cartItemsSelected,
-    food_list,
+    foodList,
     removeFromCartSelected,
     getTotalCartCost,
   } = useContext(StoreContext);
@@ -26,7 +26,7 @@ function CartPage() {
         </div>
         <br />
         <hr />
-        {food_list.map((item, index) =>
+        {foodList.map((item, index) =>
           cartItemsSelected[item._id] > 0 ? (
             <>
               <div className="cart-page-items-title cart-page-items-item">
